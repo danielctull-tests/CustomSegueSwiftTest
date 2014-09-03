@@ -11,18 +11,8 @@
 		249FFA5619B74B3800F7E863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249FFA5519B74B3800F7E863 /* ViewController.swift */; };
 		249FFA5919B74B3800F7E863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249FFA5719B74B3800F7E863 /* Main.storyboard */; };
 		249FFA5B19B74B3800F7E863 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 249FFA5A19B74B3800F7E863 /* Images.xcassets */; };
-		249FFA6719B74B3800F7E863 /* CustomSegueTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249FFA6619B74B3800F7E863 /* CustomSegueTestTests.swift */; };
+		249FFA7119B74BB000F7E863 /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249FFA7019B74BB000F7E863 /* Segue.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		249FFA6119B74B3800F7E863 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 249FFA4619B74B3800F7E863 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 249FFA4D19B74B3800F7E863;
-			remoteInfo = CustomSegueTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		249FFA4E19B74B3800F7E863 /* CustomSegueTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegueTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,20 +21,11 @@
 		249FFA5519B74B3800F7E863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		249FFA5819B74B3800F7E863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		249FFA5A19B74B3800F7E863 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		249FFA6019B74B3800F7E863 /* CustomSegueTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegueTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		249FFA6519B74B3800F7E863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		249FFA6619B74B3800F7E863 /* CustomSegueTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegueTestTests.swift; sourceTree = "<group>"; };
+		249FFA7019B74BB000F7E863 /* Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		249FFA4B19B74B3800F7E863 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		249FFA5D19B74B3800F7E863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				249FFA5019B74B3800F7E863 /* CustomSegueTest */,
-				249FFA6319B74B3800F7E863 /* CustomSegueTestTests */,
 				249FFA4F19B74B3800F7E863 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				249FFA4E19B74B3800F7E863 /* CustomSegueTest.app */,
-				249FFA6019B74B3800F7E863 /* CustomSegueTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,36 +56,12 @@
 			children = (
 				249FFA5319B74B3800F7E863 /* AppDelegate.swift */,
 				249FFA5519B74B3800F7E863 /* ViewController.swift */,
+				249FFA7019B74BB000F7E863 /* Segue.swift */,
 				249FFA5719B74B3800F7E863 /* Main.storyboard */,
 				249FFA5A19B74B3800F7E863 /* Images.xcassets */,
-				249FFA5119B74B3800F7E863 /* Supporting Files */,
-			);
-			path = CustomSegueTest;
-			sourceTree = "<group>";
-		};
-		249FFA5119B74B3800F7E863 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				249FFA5219B74B3800F7E863 /* Info.plist */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		249FFA6319B74B3800F7E863 /* CustomSegueTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				249FFA6619B74B3800F7E863 /* CustomSegueTestTests.swift */,
-				249FFA6419B74B3800F7E863 /* Supporting Files */,
-			);
-			path = CustomSegueTestTests;
-			sourceTree = "<group>";
-		};
-		249FFA6419B74B3800F7E863 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				249FFA6519B74B3800F7E863 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = CustomSegueTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,24 +84,6 @@
 			productReference = 249FFA4E19B74B3800F7E863 /* CustomSegueTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		249FFA5F19B74B3800F7E863 /* CustomSegueTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 249FFA6D19B74B3800F7E863 /* Build configuration list for PBXNativeTarget "CustomSegueTestTests" */;
-			buildPhases = (
-				249FFA5C19B74B3800F7E863 /* Sources */,
-				249FFA5D19B74B3800F7E863 /* Frameworks */,
-				249FFA5E19B74B3800F7E863 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				249FFA6219B74B3800F7E863 /* PBXTargetDependency */,
-			);
-			name = CustomSegueTestTests;
-			productName = CustomSegueTestTests;
-			productReference = 249FFA6019B74B3800F7E863 /* CustomSegueTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,10 +95,6 @@
 				TargetAttributes = {
 					249FFA4D19B74B3800F7E863 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					249FFA5F19B74B3800F7E863 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 249FFA4D19B74B3800F7E863;
 					};
 				};
 			};
@@ -179,7 +112,6 @@
 			projectRoot = "";
 			targets = (
 				249FFA4D19B74B3800F7E863 /* CustomSegueTest */,
-				249FFA5F19B74B3800F7E863 /* CustomSegueTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,13 +126,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		249FFA5E19B74B3800F7E863 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,27 +134,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				249FFA5619B74B3800F7E863 /* ViewController.swift in Sources */,
+				249FFA7119B74BB000F7E863 /* Segue.swift in Sources */,
 				249FFA5419B74B3800F7E863 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		249FFA5C19B74B3800F7E863 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				249FFA6719B74B3800F7E863 /* CustomSegueTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		249FFA6219B74B3800F7E863 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 249FFA4D19B74B3800F7E863 /* CustomSegueTest */;
-			targetProxy = 249FFA6119B74B3800F7E863 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		249FFA5719B74B3800F7E863 /* Main.storyboard */ = {
@@ -344,40 +254,6 @@
 			};
 			name = Release;
 		};
-		249FFA6E19B74B3800F7E863 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomSegueTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomSegueTest.app/CustomSegueTest";
-			};
-			name = Debug;
-		};
-		249FFA6F19B74B3800F7E863 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CustomSegueTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomSegueTest.app/CustomSegueTest";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -395,14 +271,6 @@
 			buildConfigurations = (
 				249FFA6B19B74B3800F7E863 /* Debug */,
 				249FFA6C19B74B3800F7E863 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		249FFA6D19B74B3800F7E863 /* Build configuration list for PBXNativeTarget "CustomSegueTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				249FFA6E19B74B3800F7E863 /* Debug */,
-				249FFA6F19B74B3800F7E863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
